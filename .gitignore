@@ -1,0 +1,46 @@
+
+# Visual Studio 2022
+.vs
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+out/
+
+# Binaries
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+
+# GLFW (if building from source)
+build/
+src/.deps/
+*.o
+
+# GLM (headers only, no build files)
+
+# Assets (keep your .obj files!)
+# assets/  ← DON'T ignore - keep models!
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GLFW Binaries (if prebuilt)
+glfw3.dll
+libglfw3.a
+
+# Glad (generated)
+glad.c
+glad/
